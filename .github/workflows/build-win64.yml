@@ -28,5 +28,5 @@ jobs:
           file: windows-installer/dino-installer.exe
           asset_name: dino-installer.exe
           tag: ${{ github.ref }}
-          release_name: Dino-${{ tag }}
+          release_name: Dino
           overwrite: true
