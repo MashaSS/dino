@@ -26,6 +26,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: windows-installer/dino-installer.exe
-          asset_name: dino-installer
+          asset_name: dino-installer.exe
           tag: ${{ github.ref }}
+          release_name: Dino-${{ tag }}
           overwrite: true
