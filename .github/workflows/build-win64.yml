@@ -36,3 +36,4 @@ jobs:
           asset_name: dino-installer.exe
           tag: ${{ github.ref }}
           release_name: Dino ${{ steps.ghd.outputs.describe }}
+
